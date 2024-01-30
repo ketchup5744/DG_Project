@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+header {position: fixed;top: 0;left: 0;background-color: #fff;border-bottom: 1px solid #e7e7e7;width:100%;}
+header .login-area {margin-left: auto;}
+header .login-area a {font-size: 1.6rem;color: #333;}
+
+header .header-wrap {display: flex;justify-content: space-between;align-items: center;}
+header .logo-area {}
+header .logo-area a {font-size: 2.6rem;color: #000;font-weight: 700}
+
+header .gnb {}
+header .gnb > ul {display: flex}
+header .gnb > ul > li {gap: 1rem;}
+header .gnb > ul > li a {font-size: 1.6rem;color: #333;padding: 0 1rem;}
